@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tesseract-lens-guard"
+version = "0.1.0"
+description = "High-Dimensional Logit Steering & Runtime Vector Clamping Engine"
+readme = "README.md"
+authors = [
+  { name = "Saul Delgado", email = "TesseractLensAI@gmail.com" }
+]
+license = { text = "AGPL-3.0-only" }
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.20.0",
+    "scikit-learn>=1.0.0",
+    "transformers>=4.38.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/TesseractLensAI/TesseractLensGuard"
+Repository = "https://github.com/TesseractLensAI/TesseractLensGuard"
